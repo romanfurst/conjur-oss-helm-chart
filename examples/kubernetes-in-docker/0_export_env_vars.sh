@@ -10,6 +10,7 @@ export HELM_RELEASE="${HELM_RELEASE:-conjur-oss}"
 export CONJUR_NAMESPACE="${CONJUR_NAMESPACE:-conjur-oss}"
 export CONJUR_NAMESPACE="${CONJUR_NAMESPACE_NAME:-$CONJUR_NAMESPACE}"
 export CONJUR_ACCOUNT="${CONJUR_ACCOUNT:-myConjurAccount}"
+#export CONJUR_ACCOUNT="${CONJUR_ACCOUNT:-stx}"
 export CONJUR_LOG_LEVEL="${CONJUR_LOG_LEVEL:-info}"
 
 # Basic demo config
