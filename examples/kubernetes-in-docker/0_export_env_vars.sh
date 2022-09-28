@@ -4,10 +4,12 @@ export KIND_CLUSTER_NAME="${KIND_CLUSTER_NAME:-kind}"
 
 # Helm install options
 export HELM_INSTALL_CONJUR="${HELM_INSTALL_CONJUR:-true}"
-export HELM_RELEASE="${HELM_RELEASE:-conjur-oss}"
+#export HELM_RELEASE="${HELM_RELEASE:-conjur-oss}"
+export HELM_RELEASE="${HELM_RELEASE:-devc-cyberark}"
 # The Conjur namespace name might be set with CONJUR_NAMESPACE_NAME in other
 # projects so look for both. Use CONJUR_NAMESPACE_NAME if both are set.
-export CONJUR_NAMESPACE="${CONJUR_NAMESPACE:-conjur-oss}"
+#export CONJUR_NAMESPACE="${CONJUR_NAMESPACE:-conjur-oss}"
+export CONJUR_NAMESPACE="${CONJUR_NAMESPACE:-devc}"
 export CONJUR_NAMESPACE="${CONJUR_NAMESPACE_NAME:-$CONJUR_NAMESPACE}"
 export CONJUR_ACCOUNT="${CONJUR_ACCOUNT:-myConjurAccount}"
 #export CONJUR_ACCOUNT="${CONJUR_ACCOUNT:-stx}"
